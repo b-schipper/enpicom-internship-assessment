@@ -1,0 +1,25 @@
+{
+  "name": "enpicom-internship-assessment",
+  "version": "1.0.0",
+  "description": "A coding assessment to be done by ENPICOM software engineering internship candidates",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/tests.js 'ts-node src/luhn.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b-schipper/enpicom-internship-assessment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/b-schipper/enpicom-internship-assessment/issues"
+  },
+  "homepage": "https://github.com/b-schipper/enpicom-internship-assessment#readme",
+  "dependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/node": "^13.1.6",
+    "chalk": "^3.0.0",
+    "core-js": "^3.6.3"
+  }
+}
